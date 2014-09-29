@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Presentator</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../src/presentator.js"></script>
+    <script>
+        $(function(){
+            presentator.init();
+        });
+    </script>
+    <style>
+        html, body, div{
+            margin:0;
+            padding:0;
+        }
+        .presentation{
+
+        }
+        .Slide{
+            width:300px;
+            height:100px;
+            margin:10px;
+            background:#ff0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="Presentation" id="firstPresentation">
+    <div class="Preview"></div>
+    <div class="Caption"></div>
+    <div class="Slide"></div>
+    <div class="Slide"></div>
+    <div class="Progress"><div class="ProgressIndicator"></div></div>
+</div>
+
+<div class="Presentation" id="secondPresentation">
+    <div class="Preview"></div>
+    <div class="Caption"></div>
+    <div class="Slide"></div>
+    <div class="Slide" id="wuSlide"></div>
+    <div class="Slide"></div>
+    <div class="Progress"></div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "presentator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/DmitryMakhnev/presentator",
+  "authors": [
+    "Dmitry Makhnev <dmitry.ivshin@gmail.com>"
+  ],
+  "description": "HTML presentation engine",
+  "keywords": [
+    "presentation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
